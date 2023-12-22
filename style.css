@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Inter&family=Nunito&family=Poppins:wght@300&display=swap');
+
+/* Universal Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.login-btn {
+    background-color: #F9C929; /* Warna latar belakang tombol login */
+    color: #000 !important; /* Warna teks pada tombol login */
+    border: 1px solid #000; /* Garis tepi tombol login */
+    border-radius: 10px; /* Sudut bulatan pada tombol login */
+    padding: 8px 20px; /* Ruang dalam tombol login */
+    margin: 30px;
+}
+
+.jumbotron {    
+    background-color: #0B0535;
+    color: white;
+}
+.jumbotron-btn {
+    background-color: #F9C929; /* Warna latar belakang tombol login */
+    border: 1px solid #000; /* Garis tepi tombol login */
+    color: black !important;
+    border-radius: 10px; /* Sudut bulatan pada tombol login */
+    padding: 8px 20px; /* Ruang dalam tombol login */
+    margin: 10px;
+}
+
+.logo{
+    height: 70px;
+    margin: 0px;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important; /* Menggunakan !important untuk memastikan overriden */
+    margin: 20px;
+}
+
+.login-container {
+    padding: 10px; /* Padding untuk kotak tombol login */
+    background-color: #f0f0f0; /* Warna latar belakang kotak */
+    border: 1px solid #000; /* Garis tepi kotak */
+    border-radius: 5px; /* Sudut bulatan pada kotak */
+    margin-left: 10px; /* Jarak antara tombol login dan kotak */
+}
+
+.teks {
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    text-align: center;
+}
+
+.warp-location {
+    width: 322px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.warp-location input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 15px;
+}
+
+#map {
+    width: 17px;
+    height: 22.5px;
+}
+
+#search {
+    width: 20px;
+    height: 16px;
+}
+
+.card {
+    height: 330px; 
+    width: auto;
+    overflow: hidden; /* Jika ada konten yang lebih besar dari tinggi yang ditetapkan */
+    border: 2px solid black; /* Garis tepi card */
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-faq {
+    height: auto; /* Tinggi card */
+    overflow: hidden; /* Jika ada konten yang lebih besar dari tinggi yang ditetapkan */
+    border: 2px solid black; /* Garis tepi card */
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.slider-button {
+    height: 20px; /* Tinggi tombol geser */
+    line-height: 100px; /* Tinggi teks tombol geser */
+    background-color: white;
+}
+
+button p{
+    color: #9f015e;
+}
+
+.text-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-body-center {
+    text-align: center;
+}
+
+#testimoni img{
+    height: 150px;
+    width: 150px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 20px 0px;
+    border-radius: 75px;
+}
+
+.unilunch-footer{
+    background-color: #F9C929;
+}
+.unilunch-footer a {
+    color: #000 !important;
+}
+.unilunch-footer h4 {
+    font-weight: bold;
+}
+.unilunch-footer-body {
+    margin: 10px 30px;
+    align-items:first baseline;
+}
